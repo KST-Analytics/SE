@@ -17,7 +17,7 @@ def load():
     return SE_PV, SE_tags, SE_hmap
 
 
-def iVis():
+def iVis(SE_PV,SE_tags,SE_hmap):
     mill_tags = {'Mill SE': SE_tags}
     mill_data = {'Mill SE': SE_PV}
     mill_hmap = {'Mill SE': SE_hmap} 
