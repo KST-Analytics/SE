@@ -7,9 +7,6 @@ import matplotlib.pyplot as plt
 from ipywidgets import interact, interactive, fixed, interact_manual
 import ipywidgets as widgets
 from io import BytesIO
-from reportlab.pdfgen import canvas
-from reportlab.graphics import renderPDF
-from svglib.svglib import svg2rlg
 import matplotlib.dates as mdates
 
 def load():
