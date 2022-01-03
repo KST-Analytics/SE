@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 from ipywidgets import interact, interactive, fixed, interact_manual
 import ipywidgets as widgets
 from io import BytesIO
-from svglib.svglib import svg2rlg
 import matplotlib.dates as mdates
 
 
